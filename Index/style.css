@@ -9,7 +9,7 @@ body {
   color: #0077ff;
 }
 p {
-  font-size: 40pt;
+  font-size: 30pt;
   color: #fff;
   text-align: center;
   width: 50%;
@@ -22,14 +22,52 @@ p {
 box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
 backdrop-filter: blur( 20.0px );
 -webkit-backdrop-filter: blur( 20.0px );
-border-radius: 80px;
+border-radius: 40px;
 padding: 20px;
 
 
 }
 img {
-  border-radius: 80px;
+  border-radius: 50px;
   margin-left: auto;
   margin-right: auto;
   display: block;
+  width: 90%;
+}
+#myDIV {
+  display: none;
+  position: fixed;
+  top: 50px;
+  left: 20px;
+  right: 20px;
+  z-index: 1;
+  
+  
+  background: rgba( 255, 255, 255, 0.00 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 20.0px );
+-webkit-backdrop-filter: blur( 20.0px );
+border-radius: 40px;
+padding: 50px;
+}
+.android {
+  text-decoration: none;
+  color: #fff;
+  background: rgba( 255, 255, 255, 0.00 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 20.0px );
+-webkit-backdrop-filter: blur( 20.0px );
+border-radius: 80px;
+padding: 10px;
+}
+button {
+  margin-top: 3pt;
+  width: 70px;
+  height: 70px;
+  margin-left: 9px;
+  padding: 10px;
+  border-radius: 10px;
+  color: #fff;
+  border: solid #0077ff 1px;
+  background: #0077ff;
 }
